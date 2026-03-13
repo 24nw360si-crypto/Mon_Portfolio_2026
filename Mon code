@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+</head>
+<body>
+    <header> 
+        <div> 
+            <a href="">Mon Portfolio</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Acceuil</a></li>
+                <li><a href="">Projet</a></li>
+                <li><a href="">Passion</a></li>
+                <li><a href="">Divertissement</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section> 
+            <div>
+                <h1>Bonjour je suis LIGHTWOOD</h1>
+                <P>Etudiant en L2 et passionné par le web</P>
+                <a href=""> voir mes projets</a>
+            </div>
+            <div>
+                <img src="IMAGE/LIGHTWOOD.jpg" alt="LIGHTWOOD">
+            </div>
+        </section>
+        <section></section>
+        <section></section>
+    </main>
+    <footer></footer>
+
+</body>
+</html>
