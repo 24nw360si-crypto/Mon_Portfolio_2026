@@ -84,7 +84,7 @@ a.active ::after {
    display: flex;
    justify-content: center;
    align-items: center;
-   gap: 5rem;
+   gap: 10rem 2rem;
 }
 .hero img {
    width: 300px;
@@ -96,8 +96,8 @@ a.active ::after {
 
 .hero h1 {
    color: var(--violet-fonce);
-   font-size: 4rem;
-   font-weight: 700;
+   font-size: 3rem;
+   font-weight: 400;
    margin-bottom: 1.2rem;
 
 }
@@ -123,6 +123,65 @@ a.active ::after {
    background-color: var(--violet-fonce);
    transform: translateY(-3px);
 }
+.apropos  {
+   width: 800px;
+   margin: 6rem auto;
+   text-align: center;
+}
+.apropos h2 {
+    color: var(--violet-doux);
+    font-size: 2.6rem;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+
+}
+.apropos h2::after {
+     content: '';
+     display: block;
+     width: 60px;
+     height: 4px;
+     background-color: var(--violet-doux);
+     margin: 1.2rem auto;
+     border-radius: 2px;
+ }
+ .apropos p {
+      margin-bottom: 2rem;
+      color: var(--gris-tres-fonce);
+      font-size: 1.3rem;
+ }
+ 
+ apropos  {
+   width: 800px;
+   margin: 6rem auto;
+   text-align: center;
+}
+section h2 {
+    color: var(--violet-doux);
+    font-size: 2.6rem;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+
+}
+section h2::after {
+     content: '';
+     display: block;
+     width: 60px;
+     height: 4px;
+     background-color: var(--violet-doux);
+     margin: 1.2rem auto;
+     border-radius: 2px;
+ }
+ .section p {
+      margin-bottom: 2rem;
+      color: var(--gris-tres-fonce);
+      font-size: 1.3rem;
+ }
+ 
+
+
+
 
 
 
